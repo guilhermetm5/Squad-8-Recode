@@ -4,35 +4,86 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" type="img/png" href="img/mapa.ico" class="logotipo">
+    <link rel="stylesheet" href="node_modules/bootstrap/dist/css/bootstrap.min.css">
+    <link rel="stylesheet" href="node_modules/bootstrap-icons/font/bootstrap-icons.css">
+    <link rel="stylesheet" href="css/estilos.css">
     <title>Mapa dos conflitos</title>
 </head>
 
 <body>
     <!-- Barra de navegação padrao -->
-    <nav></nav>
+
+    <nav class="navbar navbar-expand-lg navbar-dark bg-success border-bottom shadow-sm mb-3">
+        <div class="container">
+            <a class="navbar-brand" href="/"><b>Gestão Territorial</b></a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                data-bs-target=".navbar-collapse">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse">
+                <ul class="navbar-nav flex-grow-1">
+                    <li class="nav-item">
+                        <a class="nav-link text-white" href="index.html">Página Inicial</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link text-white" href="#">Terras Indígenas</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link text-white" href="mapadosconflitos.html">Mapa dos Conflitos</a>
+                    </li> 
+                    <li class="nav-item">
+                        <a class="nav-link text-white" href="#">Povos Indigenas</a>
+                    </li>                                                 
+                </ul>
+                <div class="align-self-end">
+                    <ul class="navbar-nav">
+                        <li class="nav-item">
+                            <a class="nav-link text-white" href="contato.html">Fale Conosco</a>
+                        </li>
+                        <li class="nav-item">                                
+                            <a href="cadastro.html" class="nav-link text-white">Cadastre - se</a>
+                        </li>
+                        <li class="nav-item">
+                            <a href="login.html" class="nav-link text-white">Entrar</a>
+                        </li>                            
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </nav>
 
     <!-- Corpo da pagina  -->
 
-    <div class="container">
-        <h1>Conheças as principais areas de conflitos</h1>
-        <section>
-            <img src="img/test.jpg" alt="teste">
-            <h2>Terras Yanomamis vs garimpeiros</h2>
-            <p>Os Indigenas Yanomamis sofrem com a garimpagem e garimpeiros na sua terra.</p>
+    <div class="d-flex flex-column wrapper">
+        <h1 class="text-center py-5">Conheças as principais areas de conflitos</h1>
+        <section class="bg-light py-5">
+            <div class="container row">
+                <img src="img/yanomami.jpg" class="col-6" alt="teste">
+            <div class="col-md-6">
+                <h2 class="text-center">Terras Yanomamis vs garimpeiros</h2>
+            <p class="text-center">Os Indigenas Yanomamis sofrem com a garimpagem e garimpeiros na sua terra.</p>
+            </div>
+            </div>
         </section>
-        <section>
-            <img src="img/test.jpg" alt="teste">
-            <h2>Terras Indigenas vs avanço das cidades</h2>
-            <p>Os Indigenas tem visto suas terras serem tomadas para obras de expansão de cidades e muitas vezes invasão
-                para expulsa-los e abrir caminho para a pecuaria nas sua terras.</p>
-        </section>
-    </div>
-
-    <!-- footer da pagina -->
+        <div class="d-flex flex-column wrapper">
+            <h1 class="text-center py-5">Conheças as principais areas de conflitos</h1>
+            <section class="bg-light py-5">
+                <div class="container row">
+                    <img src="img/test.jpg" class="col-6" alt="teste">
+                <div class="col-md-6">
+                    <h2 class="text-center">Terras Yanomamis vs garimpeiros</h2>
+                <p class="text-center">Os Indigenas Yanomamis sofrem com a garimpagem e garimpeiros na sua terra.</p>
+                </div>
+                </div>
+            </section>
+        <!-- footer da pagina -->
 
     <footer>
         <span>&copy; Todos os direitos reservados</span>
     </footer>
+    </div>
+    <script src="node_modules/bootstrap/dist/js/bootstrap.bundle.min.js"></script>
 </body>
 
 </html>
