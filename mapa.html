@@ -1,18 +1,17 @@
-<!doctype html>
+<!DOCTYPE html>
 <html lang="pt-br">
 <head>
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    <link rel="icon" type="img/png" href="img/lojalogo.png" class="logotipo">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" type="img/png" href="img/mapa.ico" class="logotipo">
     <link rel="stylesheet" href="node_modules/bootstrap/dist/css/bootstrap.min.css">
     <link rel="stylesheet" href="node_modules/bootstrap-icons/font/bootstrap-icons.css">
     <link rel="stylesheet" href="css/estilos.css">
-
-    <title>Proteção Territorial :: Página Base</title>
+    <title>Proteção Territorial :: Conflitos</title>
 </head>
 <body>
     <div class="d-flex flex-column wrapper">
-        <nav class="navbar navbar-expand-lg navbar-dark bg-success border-bottom shadow-sm mb-3">
+        <nav class="navbar navbar-expand-lg navbar-dark bg-danger border-bottom shadow-sm mb-3">
             <div class="container">
                 <a class="navbar-brand" href="/"><b>Proteção Territorial</b></a>
                 <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
@@ -28,7 +27,7 @@
                             <a class="nav-link text-white" href="#">Terras Indígenas</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link text-white" href="#">Mapa dos Conflitos</a>
+                            <a class="nav-link text-white" href="mapa.html">Mapa dos Conflitos</a>
                         </li> 
                         <li class="nav-item">
                             <a class="nav-link text-white" href="#">Povos Indigenas</a>
@@ -49,7 +48,7 @@
                     </div>
                 </div>
             </div>
-        </nav> <CENTER></CENTER>
+        </nav>
 
         <div class="container">
             <div id="carouselMain" class="carousel slide carousel-dark" data-bs-ride="carousel">
@@ -60,15 +59,15 @@
                 </div>
                 <div class="carousel-inner">
                     <div class="carousel-item active" data-bs-interval="3000">
-                        <img src="img/acampamento-terra-livre-ATL2022-foto-edgar-kanayko-apib-wwfbrasil2.png" class="d-none d-md-block w-90" alt=""> 
-                        <img src="img/slides/slidesmall.jpg" class="d-block d-md-none  w-100" alt="300">
-                    </div>
-                    <div class="carousel-item" data-bs-interval="3000">
-                        <img src="img/20-1920x1080px.jpg" class="d-none d-md-block w-100" alt="">
+                        <img src="img/capa-PL.png" class="d-none d-md-block w-100" alt="">
                         <img src="img/slides/slidesmall.jpg" class="d-block d-md-none  w-100" alt="">
                     </div>
                     <div class="carousel-item" data-bs-interval="3000">
-                        <img src="img/capa-PL.png" class="d-none d-md-block w-100"     
+                        <img src="img/acampamento-terra-livre-ATL2022-foto-edgar-kanayko-apib-wwfbrasil2.png" class="d-none d-md-block w-100" alt="">
+                        <img src="img/slides/slidesmall.jpg" class="d-block d-md-none  w-100" alt="">
+                    </div>
+                    <div class="carousel-item" data-bs-interval="3000">
+                        <img src="img/20-1920x1080px.jpg" class="d-none d-md-block w-100" alt="">
                         <img src="img/slides/slidesmall.jpg" class="d-block d-md-none  w-100" alt="">
                     </div>
                 </div>
@@ -85,37 +84,7 @@
         </div>
         <main class="flex-fill">
             <div class="container">
-                <div class="row justify-content-center">
-                    <form class="col-sm-10 col-md-8 col-lg-6">
-                        <h3>Acesso do Usuário</h3>
-
-                        <div class="form-floating mb-3">
-                            <input type="email" id="txtEmail" class="form-control" placeholder=" " autofocus>
-                            <label for="txtEmail">E-mail</label>
-                        </div>
-
-                        <div class="form-floating mb-3">
-                            <input type="password" id="txtSenha" class="form-control" placeholder=" ">
-                            <label for="txtSenha">Senha</label>
-                        </div>
-
-                        <div class="form-check mb-3">
-                            <input type="checkbox" class="form-check-input" value="" id="chkLembrar">
-                            <label for="chkLembrar" class="form-check-label">Lembrar de mim</label>
-                        </div>
-
-                        <button type="button" onclick="window.location.href='cliente_pedidos.html'"
-                            class="btn btn-lg btn-dark">Entrar</button>
-
-                        <p class="mt-3">
-                            Ainda não é cadastrado? <a href="cadastro.html">Clique aqui</a> para se cadastrar.
-                        </p>
-
-                        <p class="mt-3">
-                            Esqueceu sua senha? <a href="recuperarsenha.html">Clique aqui</a> para recuperá-la.
-                        </p>
-                    </form>
-                </div> 
+                
             </div>          
         </main>
 
@@ -127,23 +96,22 @@
                         
                     </div>
                     <div class="col-12 col-md-4 text-center">
-                        <a href="#" class="text-decoration-none text-dark">
-                            Quem Somos
+                        <a href="index.html" class="text-decoration-none text-dark">
+                            Pagina Inicial
                         </a><br>
-                        <a href="#" class="text-decoration-none text-dark">
-                            Noticias dos Povos 
+                        <a href="contato.html" class="text-decoration-none text-dark">
+                            Fale conosco
+                        </a><br>
+                        <a href="mapa.html" class="text-decoration-none text-dark">
+                            Proteção dos Povos 
                         </a><br>
                         <a href="#" class="text-decoration-none text-dark">
                             Movimentos Indigenas 
                         </a><br>
-                        <a href="#" class="text-decoration-none text-dark">
-                            Projetos Governamentais
-                        </a>
                     </div>
                     <div class="col-12 col-md-4 text-center">
                         <ul class="navbar icones">
                             <li><a href="https://github.com/" class="text-hide">GitHub</a></li>
-                            <li><a href="https://www.google.com/" class="text-hide">Google plus</a></li>
                             <li><a href="https://br.linkedin.com/" class="text-hide">Linkedin</a></li>
                             <li><a href="https://www.facebook.com/" class="text-hide">Facebook</a></li>
                         </ul>
@@ -154,4 +122,4 @@
     </div>
     <script src="node_modules/bootstrap/dist/js/bootstrap.bundle.min.js"></script>
 </body>
-</html> 
+</html>
