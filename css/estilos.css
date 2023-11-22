@@ -3,6 +3,9 @@
 body {
     padding: 0;
     margin: 0;
+    background-image: url(/img/demarca.webp);
+    background-repeat: inherit;
+    background-size: cover;
 }
 
 /* navbar */
@@ -33,4 +36,34 @@ p a {
 .efeito-sombra {
     box-shadow: 5px -5px 100px 0px rgba(0, 0, 0, 0.3);
     /* filter: drop-shadow(5px 5px 5px rgba(0,0,0,0.3)); */
+}
+
+/* Pagina mapa.html  */
+
+
+.main-mapa-html {
+    height: 100vh;
+    
+}
+.pai {
+    display: flex;
+    flex-direction: row;
+    /* background-color: rgba(102, 97, 92, 0.603); */
+    border-radius: 15px;
+}
+.filho1 {
+    justify-content: center;
+    text-align: center;
+    width: 50%;
+    border: 1px solid whitesmoke;
+    border-radius: 15px;
+    background-color: rgba(102, 97, 92, 0.603);
+}
+.filho2 {
+    text-align: center;
+    justify-content: center;
+    width: 50%;
+    border-radius: 15px;
+    border: 1px solid whitesmoke;
+    background-color: rgba(102, 97, 92, 0.603);
 }
