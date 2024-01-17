@@ -1,11 +1,14 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="css/estilos-login.css">
+    <script src="javascript/scripts.js"></script>
     <title>Login</title>
 </head>
+
 <body>
     <div class="main-login">
         <div class="left-login">
@@ -17,15 +20,16 @@
                 <h1>LOGIN</h1>
                 <div class="text-field">
                     <label for="usuario">Usuário</label>
-                    <input type="text" name="usuario" placeholder="Usuário">
+                    <input type="text" id="teste" name="usuario" placeholder="Usuário">
                 </div>
                 <div class="text-field">
                     <label for="senha">Senha</label>
-                    <input type="password" name="senha" placeholder="Senha">
+                    <input type="password" id="teste2" name="senha" placeholder="Senha">
                 </div>
-                <button class="btn-login">Login</button>
+                <button onclick="obterValor()" class="btn-login">Login</button>
             </div>
         </div>
     </div>
 </body>
+
 </html>
