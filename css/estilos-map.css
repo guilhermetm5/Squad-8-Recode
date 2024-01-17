@@ -1,0 +1,49 @@
+body,
+html {
+    padding: 0;
+    margin: 0;
+}
+
+.container>h2 {
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+
+}
+
+.main-mapa-html {
+    height: 100vh;
+}
+
+.pai {
+    display: flex;
+    flex-direction: row;
+    /* background-color: rgba(102, 97, 92, 0.603); */
+    border-radius: 15px;
+}
+
+.filho1 {
+    justify-content: center;
+    text-align: center;
+    width: 80%;
+    border: 1px solid whitesmoke;
+    border-radius: 15px;
+}
+
+.filho2 {
+    text-align: center;
+    justify-content: center;
+    width: 20%;
+    border-radius: 15px;
+    border: 1px solid whitesmoke;
+}
+
+@media only screen and (max-width:950px) {
+
+    .pai {
+        flex-direction: column;
+    }
+
+    .filho2,
+    .filho1 {
+        width: 100%;
+    }
+}
